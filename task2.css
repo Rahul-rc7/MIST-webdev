@@ -1,0 +1,31 @@
+body{
+    background-image:url(back1.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+      background-color: rgb(186, 34, 85);
+      background-attachment: fixed;
+      width:40%;
+      height:100%;
+      margin:20px;
+      padding:20px;
+      position:relative;
+      left:400px;
+}
+.price{
+    text-align:right;
+}
+.flavor,.drink{
+  text-align: left;
+  width: 75%;
+}
+.item{
+  
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      display:flex;
+      justify-content: space-between;
+}
